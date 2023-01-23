@@ -17,6 +17,11 @@ const userSignupDoc = {
               description: "Lastname of the user",
               example: "BK",
             },
+            userName: {
+              type: "string",
+              description: "Lastname of the user",
+              example: "RaziBK",
+            },
             email: {
               type: "string",
               description: "email of the user",
@@ -54,6 +59,11 @@ const userSignupDoc = {
                 type: "string",
                 description: "Lastname of the user",
                 example: "BK",
+              },
+              userName: {
+                type: "string",
+                description: "Lastname of the user",
+                example: "RaziBK",
               },
               email: {
                 type: "string",

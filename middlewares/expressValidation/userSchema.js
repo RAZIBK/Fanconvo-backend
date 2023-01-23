@@ -5,7 +5,7 @@ const registerSchema = [
   body("lastName").exists().withMessage('Last Name is required'),
   body("userName").exists().withMessage('User Name is required'),
   body("password").isLength({ min: 5 }).withMessage('Password must be at least 5 chars long'),
-  body("email").isEmail('Email must contain a valid email address'),
+  body("email").isEmail().withMessage('Email must contain a valid email address'),
   body("timeZone").exists().withMessage('TimeZone is required'),
 ];
 
